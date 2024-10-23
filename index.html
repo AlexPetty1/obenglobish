@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <link rel="stylesheet" type="text/css" href="oben.css">
+
+        <script src="oben.js" defer></script>
+
+    </head>
+
+
+
+
+    <body>
+
+        <main>
+            <h1 id="titleEle">Obenglobish Translator</h1>
+
+            <h3 id="rulesHeader">
+                Rules implemented:
+            </h3>
+                <p id="rulesList">
+                    1. Add ob in front of every vowel.
+                <br>2. Add ob only in front of first of 2 double vowels.
+                <br>3. Add ob in front of y if at end of a word.
+                <br>4. Add ob in in front of y if between 2 consonants.
+                <br>5. Dont add ob in front of e if at end of the word and the word has have another vowel.
+                </p>
+
+            <h3>
+                <strong>Options: </strong>
+            </h3>
+            <form id="options">
+                <label for="fname">Replace Text:</label>
+                <input type="text" id="replaceInput" name="replaceInput"><br>
+                <label for="deob">Deobofy: </label>
+                <input type="checkbox" id="deobOption" name="deobOption"><br>
+            </form>
+
+
+
+            <h2 id="textIn">English Input: </h2>
+            <form id = "englishForm">
+                <textarea id="obenIn" name="translate"></textarea>
+            </form>
+
+            <h2 id="textOut1">Obenglobish Output: </h2>
+            <p id = "obenOut"></p>
+
+            <h2 id="textOut2">Obenglobish^2 Output: </h2>
+            <p id = "obenOut2"></p>
+
+            <h2 id="textOut3">Obenglobish^3 Output: </h2>
+            <p id = "obenOut3"></p>
+            
+        </main>
+
+    </body>
+</html>

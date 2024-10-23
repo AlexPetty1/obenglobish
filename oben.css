@@ -1,0 +1,57 @@
+
+
+
+
+body {       /* Can alternatively define in html {}. */
+    background-color: lightblue;
+    margin: auto;
+    padding: 10px;
+    max-width: 1000px;
+    word-wrap: break-word;
+    font-size: 200%;
+}
+
+
+main {
+    padding: 0px;
+    margin: 5px;
+}
+
+input{
+    font-size: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+
+}
+
+#oboOut {
+    overflow-wrap: break-word;
+    font-size: 35px;
+}
+
+input[type=checkbox] {
+    transform: scale(1.8);
+}
+
+#rulesList{
+    margin-top: 0;
+    margin-left: 20px;
+}
+#rulesHeader{
+    margin-bottom: 0;
+}
+
+textarea{
+    font-size: 35px;
+    background-color: rgba(255, 255, 255, 0.1);
+    max-width: 100%;
+    width: 100%;
+    min-height: 150px;
+    padding: 5px;
+    margin: 0;
+    overflow:hidden;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;  
+}
