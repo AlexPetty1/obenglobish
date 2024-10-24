@@ -1,0 +1,12 @@
+Allows you to translate into and out of the highly serious language, obenglobish.
+Implements the rules below, includes english to obenglobish, 
+obenglobish to english, and changing the replacement word to something other than ob.
+
+Rules implemented:
+    1. Add ob in front of every vowel.
+    2. Add ob only in front of first of 2 double vowels.
+    3. Add ob in front of y if at end of a word.
+    4. Add ob in in front of y if between 2 consonants.
+    5. Dont add ob in front of e if at end of the word and the word has have another vowel.
+
+Will be up on the website: https://web.engr.oregonstate.edu/~pettyal/obenglobish/ for awhile at least.
